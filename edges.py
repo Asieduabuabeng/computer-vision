@@ -55,4 +55,7 @@ axes[3].axis("off")
 
 # tight_layout adjusts spacing so panels don't overlap
 plt.tight_layout()
+# Save the figure as an image file
+plt.savefig("output_edges.png", dpi=150, bbox_inches='tight')
+plt.savefig("outputs/output_edges.png", dpi=150, bbox_inches='tight')
 plt.show()
